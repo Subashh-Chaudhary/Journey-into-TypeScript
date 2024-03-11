@@ -1,9 +1,9 @@
 type Users = {
-  readonly _id: string;
-  name: string;
-  email: string;
-  isActive: boolean;
-  readonly creditCardDetail?: number; // Optional "?"
+  readonly _id: string,
+  name: string,
+  email: string,
+  isActive: boolean,
+  readonly creditCardDetail?: number, // Optional "?"
 };
 
 let user1: Users = {
@@ -17,14 +17,14 @@ user1.name = "Subash Tharu";
 // user1._id = "00993"
 
 type cardNumbers = {
-  cardNumber: string;
+  cardNumber: string
 };
 
 type cardDate = {
-  cardDate: string;
+  cardDate: string
 };
 
 type cardDetails = cardNumbers &
   cardDate & {
-    cvv: number;
+    cvv: number
   };

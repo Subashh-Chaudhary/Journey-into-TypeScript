@@ -3,13 +3,13 @@ score = 23;
 score = "99";
 
 type User = {
-  name: string;
-  id: number;
+  name: string,
+  id: number
 };
 
 type Admin = {
-  userName: string;
-  id: number;
+  userName: string,
+  id: number
 };
 
 let subash: User | Admin = {
