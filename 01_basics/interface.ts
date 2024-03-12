@@ -35,3 +35,5 @@ let newUser: User = {
 newUser.email = "chaudharysubash15963@gmail.com";
 
 export {};
+
+// interface vs type
