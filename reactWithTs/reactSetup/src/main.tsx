@@ -1,7 +1,8 @@
-import React, { ReactElement } from 'react'
+import React from 'react'
 import ReactDom from 'react-dom/client'
+import LandingPage from './pages/landing';
 // import App from './App.tsx'
-// import './index.css'
+import './Assets/css/main.css'
 
 // createRoot(document.getElementById('root')!).render(
 //   <StrictMode>
@@ -11,17 +12,18 @@ import ReactDom from 'react-dom/client'
 
 // component
 
-const Welcome = ():ReactElement =>{
-  return(
-    <>
-    <h1>Hello it's me Subash Tharu.</h1>
-    </>
-  )
-}
+// const Welcome = ():ReactElement =>{
+//   return(
+//     <>
+//     <h1>Hello it's me Subash Tharu.</h1>
+//     </>
+//   )
+// }
 
 const rectElem = ReactDom.createRoot(document.getElementById('root')!);
 rectElem.render(
   <React.StrictMode>
-    <Welcome />
+    <LandingPage />
+    {/* //<Welcome /> */}
   </React.StrictMode>
 )
