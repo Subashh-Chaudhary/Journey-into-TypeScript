@@ -1,17 +1,18 @@
 import { ReactElement } from "react";
 import "./landing.css";
 import { Heading1} from "../../components/common/title";
+import "../../Assets/css/main.css";
 
 const LandingPage = (): ReactElement => {
   return (
     <>
-      <Heading1 value="Developer">
+      <Heading1 
+      value="Developer">
         <>Subash Tharu</>
       </Heading1>
       <div
-        className="landing"
+        className="landing text-red-800 shadow-md"
         style={{
-          color: "green",
           backgroundColor: "#cccccc",
           fontWeight: "bolder",
         }}
