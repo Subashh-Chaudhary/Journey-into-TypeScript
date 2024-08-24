@@ -1,6 +1,6 @@
 import { ReactElement } from "react";
 import "./landing.css";
-import { Heading1} from "../../components/common/title";
+import { Heading1, Heading2} from "../../components/common/title";
 import "../../Assets/css/main.css";
 
 const LandingPage = (): ReactElement => {
@@ -10,6 +10,12 @@ const LandingPage = (): ReactElement => {
       value="Developer">
         <>Subash Tharu</>
       </Heading1>
+
+      <Heading2
+      value="Developer">
+        <>Binod Shrestha</>
+      </Heading2>
+
       <div
         className="landing text-red-800 shadow-md"
         style={{
