@@ -17,6 +17,8 @@ export const Heading1 = ({
   );
 };
 
+
+
 export const Heading2 = ({
   children,
   value,
