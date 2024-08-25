@@ -38,6 +38,8 @@
       <li>array as params, arrow function implementation</li>
       <li>generics classes</li>
     </ul>
+    <h3>07_React setup with TypeScript</h3>
+    <h3>08_Basic UI of E-comm</h3>
     <br>
     <p>Created by: Subash Tharu</p>
     <p>Contact: <a href="https://www.linkedin.com/in/developer-subash/">LinkedIn</a></p>
